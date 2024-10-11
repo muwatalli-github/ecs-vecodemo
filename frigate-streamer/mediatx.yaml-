@@ -33,7 +33,7 @@ metadata:
   name: mediatx-svc
   namespace: mediatx
   annotations:
-    metallb.universe.tf/loadBalancerIPs: 192.168.0.240
+    metallb.universe.tf/loadBalancerIPs: 10.0.1.246
 spec:
   selector:
     app: mediatx
